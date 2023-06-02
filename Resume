@@ -2,3 +2,69 @@ Tags: MERN stack, web development, HTML forms, form creation, form elements, for
 Summary tag
 Details Tag
 Use of table in other way
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Jayam Pandit</h1>
+            <p>Contact: <a href="abcd.com">panditjayam@30</a></p>
+            <p>LinkedIn: <a href="abcd.com">panditjayam@30</a></p>
+            <p>Github: <a href="abcd.com">panditjayam@30</a></p>
+        </div>
+
+        <table>
+            <tr>
+                <td>
+                    <img src="Snapchat-1040594553.jpg" alt="jayam" height="100px" width="100px">
+                </td>
+                <td>
+                    Hi, I'm Jayam Pandit, a second-year Mechatronics student with a range of passions and interests. I love exploring the world of startups and entrepreneurship, and I'm always seeking new ways to learn about artificial intelligence and machine learning. In my spare time, I enjoy reading books on physics and philosophy, and I'm also a dedicated vegan. I find great joy in public speaking and am always looking for opportunities to improve my skills in this area. Overall, I'm a curious and well-rounded person with a desire to make a positive impact on the world.
+                </td>
+            </tr>
+        </table>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>BTech at IIIT BH</li>
+                <li>GGIA Bhopal</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Work Experience </h2>
+            <ul>
+                <li>Gen sec at E-cell IIIT BH</li>
+                <li>Intern at </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>C++</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+
+        <section>
+            <details> 
+                <summary>
+                What is your doubt
+            </summary>
+            <p>Sorry can't help</p>
+            </details>
+
+        </section>
+    </div>
+</body>
+</html>
